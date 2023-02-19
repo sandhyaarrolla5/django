@@ -164,8 +164,8 @@ def demo(request):
 	<h2>This is Same-Output for diff-mulitple-Requests-URLs</h2>
 	<hr />
 	<h3>Have a Great Day...</h3>
-	</center>''';
-	return HttpResponse(htmldata);
+</center>''';
+return HttpResponse(htmldata);
     
 def homepage(request):
     htmldata='''<center>
