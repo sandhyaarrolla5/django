@@ -157,7 +157,7 @@ def senddatetime(request):
 	''';
 	return HttpResponse(ss);
 def demo(request):   
-	print("mulitple-Requests-URLs same respose");
+		print("mulitple-Requests-URLs same respose");
 	htmldata='''<center>
 		<h1>Welcome Demo User!!!</h1>
 		<hr />
